@@ -9,34 +9,10 @@
   <body>
 	  <table style="width: 100%; height: 100%">
 	
-    <table>
-        
+   <table>
+        <!-- ROW 1 -->
         <tr>
-            
-            <td></td>
-
-            
-            <td>
-                <table class="inner-table">
-                    <tr>
-                        <th colspan="2">Nested Table 1</th>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
-                            <ul style="text-align: left;">
-                                <li>List item</li>
-                                <li>List item</li>
-                                <li>List item</li>
-                            </ul>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-
-       
-        <tr>
-           
+            <!-- Top Left → Nested Table 2 -->
             <td>
                 <table class="inner-table">
                     <tr>
@@ -53,9 +29,29 @@
                 </table>
             </td>
 
-           
+            <!-- Top Right → Nested Table 1 -->
             <td>
-             
+                <table class="inner-table">
+                    <tr>
+                        <th>Nested Table 1</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>List item</li>
+                                <li>List item</li>
+                                <li>List item</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- ROW 2 -->
+        <tr>
+            <!-- Bottom Left → Nested Table 3 -->
+            <td>
                 <table class="inner-table">
                     <tr>
                         <th colspan="2">Nested Table 3</th>
@@ -65,10 +61,10 @@
                         <td>Demo Continued</td>
                     </tr>
                 </table>
+            </td>
 
-                <br>
-
-                
+            <!-- Bottom Right → Nested Table 4 -->
+            <td>
                 <table class="inner-table">
                     <tr>
                         <th>Nested Table 4</th>
@@ -80,6 +76,5 @@
             </td>
         </tr>
     </table>
-     
   </body>
 </html>
